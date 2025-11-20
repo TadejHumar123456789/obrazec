@@ -1,0 +1,273 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.pisavca{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+
+body {
+    margin: 0;
+    font-family:sans-serif;
+    display: flex;                       /* elementi se razporedijo v vrsto */
+    align-items: center;
+    height: 100vh;                       /* celotna višina brskalnika */
+	color: #fff;                         /* bela barva besedila */
+	justify-content: center;             /* preglasi prejšnjo poravnavo */
+	background: #900;                     /* osnovna rdeča */
+    background: radial-gradient(         /* radialni preliv */
+		circle, 
+		rgba(153, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 86%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+
+
+.new-account{
+	text-decoration: none;
+    color: #900;                         /* rdeča */
+    font-weight: bold;
+}
+
+
+.vse{
+	display: flex;
+    flex-direction: column;              /* elementi en pod drugim */
+    align-items: center;                 /* centrirani */
+    margin-left: 5vw;                    /* pomaknjeno desno */
+}
+
+
+.logo{
+	margin-left:20px;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding-top:40px;
+	background: url('../img/logo.png');
+	background-repeat:no-repeat;
+}
+
+
+.head{
+	width: 400px;
+    height: 185px;
+    background-color: #990A2C;           /* temno rdeča */
+    color: #fff;
+    background-image: url('../img/head.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.head a{
+	color: #FBBA00;                      /* rumena */
+}
+
+
+.head h2{
+	margin-left:20px;
+}
+.head p{
+	margin-left:20px;
+}
+
+
+.Sign-in {
+    background: rgba(255, 255, 255, 0.95); 
+    width: 340px;
+    padding: 30px;
+    border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+    color: #000;                          /* črna */
+    margin: auto;
+}
+
+
+.EP{
+	font-size:11px;
+	font-weight: normal;
+}
+
+
+.InputEP {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 15px;
+}
+
+
+.Extra {
+    display:flex;
+	align-items:center;
+    justify-content: space-between;
+	font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.Extra a {
+    text-decoration: none;
+    color: #900;
+    font-weight: bold;
+    margin-left:50px;
+}
+
+
+.Extra label {
+    display: flex;
+    align-items: center;
+}
+
+
+.kvadrat{
+	margin-right:10px;
+	width: 20px;   
+    height: 20px;
+}
+
+
+.Extra span{
+	color:#4e515e;
+	font-weight: lighter;
+	margin-left:8px;
+}
+
+
+.con{
+	width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+	transform: skew(-15deg);             /* nagib */
+	text-align: center;
+}
+
+
+.soc {
+    width: 100%;
+	height:45px;
+	border:0;
+}
+
+
+#LU{
+	/*margin-right:2px;*/
+	background-image:url('../img/facebook.png');
+	/*background: #4267B2;*/
+    width: 151px;
+	border-radius: 3px;
+    height: 45px;
+	transform: skew(-15deg);
+	text-align: center;
+	margin-left:5px;
+	
+}
+
+
+#LD{
+	/*margin-right:2px;*/
+	/*background: #000;*/
+    width: 151px;
+	border-radius: 3px;
+    height: 45px;
+	transform: skew(-15deg);
+	text-align: center;
+	background-image:url("../img/apple.png");
+	margin-left:5px;
+}
+
+
+#RU{
+	/*background: #E5E5E5;*/
+    width: 151px;
+	border-radius: 3px;
+    height: 45px;
+	transform: skew(-15deg);
+	text-align: center;
+	background-image:url("../img/google.png");
+}
+
+
+#RD{
+	/*background: #FF9900;*/
+    width: 151px;
+	border-radius: 3px;
+    height: 45px;
+	transform: skew(-15deg);
+	text-align: center;
+	background-image:url("../img/amazon.png");
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.leg{
+	font-size:10px;
+	margin-left:78px;
+}
+
+
+.ToS{
+	text-decoration:none;
+	color: #900;
+}
+
+
+.and{
+	color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+.line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #4e515e;
+  font-weight: lighter;
+}
+
+
+.line::before,
+.line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.line::before {
+  margin-right: 10px;
+}
+
+.line::after {
+  margin-left: 10px;
+}
+
+
+.line span {
+  white-space: nowrap;
+}
