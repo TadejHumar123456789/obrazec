@@ -25,6 +25,6 @@
 * Google Fonts
 * Custom images and icons
 # Author
-* Tadej Humar,4.Ra
+* Tadej Humar
 * 2024/25
 
