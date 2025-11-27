@@ -2,11 +2,11 @@
 
 * Replica of As Roma's sign-in and sign-up website. Includes sign-in and sign-up validation with SweetAlert2 pop-ups.
 
-# Photos
-* Inspiration:
-![As Roma](img/Inspo.png)
-* My Design:
-![As Roma](img/My_Web.png)
+# Images
+<div style="display: flex; gap: 10px;">
+  <img src="img/Inspo.png" alt="As Roma" width="45%">
+  <img src="img/My_Web.png" alt="My Design" width="45%">
+</div>
 
 # Features
 ## 1. Login works only with:
